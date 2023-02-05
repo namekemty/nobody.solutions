@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'Helvetica LT Std', Helvetica Neue, Helvetica,ubuntu,roboto,noto,segoe ui,arial, sans-serif !important;
+    src: url("/fonts/helveticaneueltstd_blk-webfont.woff") format("woff"),
+      url("/fonts/helveticaneueltstd_blk-webfont.woff2") format("woff2") 
+  }
+
+*::before, *::after {
+    box-sizing: border-box;
+}
+
+html {
+    margin-left: calc(100vw - 100%);
+}
+
+body {
+    font-family: 'Helvetica LT Std', Helvetica Neue, Helvetica,ubuntu,roboto,noto,segoe ui,arial, sans-serif !important;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    overflow-x: hidden;
+    display: block;
+}
+
+.header__logo {
+    display: inline-block;
+    text-decoration: none;
+}
+.tabs__head-item {
+    color: rgb(153, 153, 153);
+    cursor: pointer;
+    border-bottom: none;
+    font-size: 1rem;
+    line-height: 1;
+    margin-right: 0px;
+    padding: 0.5rem 0;
+    transition: .2s;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    transition-property: all;
+    font-weight: bold;
+}
