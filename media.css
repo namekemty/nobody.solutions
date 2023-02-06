@@ -3,7 +3,18 @@
     padding-left: 15px;
     padding-right: 15px;
     }
-  .layout__content {
+
+  .page_layout {
+    grid-template-areas:
+        "header"
+        "sidebar"
+        "main"
+        "footer";
+    grid-template-columns: 100%;
+    grid-template-rows: max-content;
+  }
+
+  .layout__content-header {
     padding-top: calc(1vw * 4);
     padding-bottom: calc(1vw * 4);
   }
@@ -16,5 +27,11 @@
   }
   .tabs__head-item {
     white-space: nowrap;
+  }
+
+  .grid-list {
+    grid-template-columns: repeat(3, 1fr);
+    min-width: 200px;
+    column-gap: calc(2rem / 2);
   }
 }
