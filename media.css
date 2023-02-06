@@ -1,0 +1,20 @@
+@media screen and (max-width: 767px) {
+  .layout {
+    padding-left: 15px;
+    padding-right: 15px;
+    }
+  .layout__content {
+    padding-top: calc(1vw * 4);
+    padding-bottom: calc(1vw * 4);
+  }
+  .header__logo img {
+    width: 100px;
+  }
+  .tabs__head {
+    overflow-x: auto;
+    padding-bottom: 1rem;
+  }
+  .tabs__head-item {
+    white-space: nowrap;
+  }
+}
